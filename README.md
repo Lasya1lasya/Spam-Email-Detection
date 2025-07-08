@@ -20,6 +20,6 @@ Feature extraction using CountVectorizer
 
 Spam classification using Multinomial Naive Bayes
 
-Model evaluation using accuracy, precision, recall, and F1-score
+Model evaluation using accuracy score
 
 Achieved ~99% accuracy on test data

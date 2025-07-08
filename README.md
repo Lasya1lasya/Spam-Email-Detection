@@ -9,7 +9,7 @@ This project is a binary text classification model that identifies whether an em
 
 - scikit-learn 
 
-- Jupyter Notebook / Google Colab
+- Jupyter Notebook 
 
 - NLP Preprocessing
 

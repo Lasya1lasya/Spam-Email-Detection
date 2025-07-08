@@ -9,6 +9,8 @@ This project is a binary text classification model that identifies whether an em
 
 - scikit-learn 
 
+- Streamlit web app
+
 - Jupyter Notebook 
 
 - NLP Preprocessing

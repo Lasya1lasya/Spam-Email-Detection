@@ -7,9 +7,9 @@ This project is a binary text classification model that identifies whether an em
 
  - NumPy, Pandas
 
-- scikit-learn (CountVectorizer, MultinomialNB, accuracy_score)
+- scikit-learn 
 
--Jupyter Notebook / Google Colab
+- Jupyter Notebook / Google Colab
 
--NLP Preprocessing
+- NLP Preprocessing
 

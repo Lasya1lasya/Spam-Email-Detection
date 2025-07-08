@@ -13,3 +13,13 @@ This project is a binary text classification model that identifies whether an em
 
 - NLP Preprocessing
 
+## Key Features
+Preprocessing of email text (lowercasing, punctuation removal, etc.)
+
+Feature extraction using CountVectorizer
+
+Spam classification using Multinomial Naive Bayes
+
+Model evaluation using accuracy, precision, recall, and F1-score
+
+Achieved ~99% accuracy on test data

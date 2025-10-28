@@ -1,6 +1,8 @@
-# Spam-Email-Detection
-Spam Email Detection using CountVectorizer & Multinomial Naive Bayes
-This project is a binary text classification model that identifies whether an email is spam or not spam using Natural Language Processing (NLP) techniques and Machine Learning. It uses CountVectorizer for feature extraction and Multinomial Naive Bayes for classification.
+# Spam Email Detection using Machine Learning & Streamlit
+## Overview
+This project demonstrates a Spam Email Classification System built using Python, Machine Learning (Naive Bayes), and an interactive Streamlit Web App.
+It classifies any given email as Spam (1) or Not Spam (0) based on the message content.
+The system uses Natural Language Processing (NLP) techniques to convert text into numerical features and achieves ~99% accuracy on real-world email data.
 ## Datset
 | Column   | Description                               |
 | -------- | ----------------------------------------- |
@@ -23,6 +25,12 @@ This means your model correctly classifies ~99 out of 100 emails.
 ## Model Saving
 1) You saved the trained model and vectorizer as .pkl files.
 2) These files can be loaded later to classify new incoming emails without retraining.
+## Model Deployment
+Create a Streamlit UI for live predictions.
+
+## How to Run the App Locally
+streamlit run app.py
+
 ## Libraries Used
 - import pandas as pd
 - from sklearn.feature_extraction.text import CountVectorizer

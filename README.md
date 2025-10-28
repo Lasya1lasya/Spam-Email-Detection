@@ -17,18 +17,19 @@ This ensures the model is validated on unseen data.80% for training
 ##  Model Training
 1) MultinomialNB() is ideal for text classification problems.
 2) The model learns which words are more likely to appear in spam vs non-spam emails.
-## Technologies & Tools Used
- - Python 
-
- - NumPy, Pandas
-
-- scikit-learn 
-
-- Streamlit web app
-
-- Jupyter Notebook 
-
-- NLP Preprocessing
+## Model Evaluation
+Result: 0.9895 (≈98.95% accuracy)
+This means your model correctly classifies ~99 out of 100 emails.
+## Model Saving
+1) You saved the trained model and vectorizer as .pkl files.
+2) These files can be loaded later to classify new incoming emails without retraining.
+## Libraries Used
+- import pandas as pd
+- from sklearn.feature_extraction.text import CountVectorizer
+- from sklearn.model_selection import train_test_split
+- from sklearn.naive_bayes import MultinomialNB
+- from sklearn.metrics import accuracy_score
+- import joblib
 
 ## Key Features
 Preprocessing of email text (lowercasing, punctuation removal, etc.)
